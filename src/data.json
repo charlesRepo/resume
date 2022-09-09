@@ -1,0 +1,224 @@
+{
+    "personal_info": {
+        "name": "Charles Hanna",
+        "description": "I’m driven by my passion to efficiently solve problems, by my curiosity to incessantly explore the infinite technological universe, and by my determination to work with teams to ship inclusive, scalable, and performant clean code. I learn everyday to become a better developer, a better leader, and most importantly a better human.",
+
+        "tel": "514 576 0156",
+        "email": "ch.gd.ca@gmail.com",
+        "social": [
+            {"name": "github.com/charlesRepo", "url": "https://github.com/charlesRepo"},
+            {"name": "linkedin.com/in/chrls/", "url": "https://www.linkedin.com/in/chrls"}
+        ]
+            
+    },
+    "experience":{
+        "main_title": "Experience",
+        "entries": [
+             {
+                "title":"Team Lead Frontend Web Developer",
+                "date":{
+                    "start":"Jan.‘21",
+                    "end":"present"
+                },
+                "company":{
+                    "name":"Lightspeed Commerce",
+                    "url":"https://www.lightspeedhq.com",
+                    "location":"Montreal, QC"
+                },
+                "desc_list" : [
+                    "While I was still doing lots of technical development, I managed a team of frontend developers, with one developer located in a completely different timezone.", 
+                    "Held bi-weekly 1:1 meetings, through which provided coaching and mentorship to each team member.", 
+                    "Organized weekly grooming and task review sessions with my team and mangers, in an effort to plan the work for the upcoming sprints, eliminate any blockers and provide better understanding of the sprint tasks.",
+                    "Planned and conducted technical interviews, and on-boarded new devs who joined the team."
+                ]
+            },
+             {
+                "title":"Senior Frontend Web Developer",
+                "date":{
+                    "start":"Jul.‘18",
+                    "end":"Jan.‘21"
+                },
+                "company":{
+                    "name":"Lightspeed Commerce",
+                    "url":"https://www.lightspeedhq.com",
+                    "location":"Montreal, QC"
+                },
+                "desc_list" : [
+                    "Migrated the Javascript codebase from gulp to Webpack, where a significant performance gain was acquired due to tree shaking and code splitting.",
+                    "Converted the Javascript codebase to use plain vanilla Javascript rather than jQuery, which was retired after the project was completed.",
+                    "Helped fellow colleagues in the Marketing department with technical difficulties, specially issues related to the WordPress setup.",
+                    "Engaged in regular code reviews, in pair programming sessions, and regularly take time to help fellow developers with technical challenges."
+                ]
+            },
+             {
+                "title":"Frontend Web Developer",
+                "date":{
+                    "start":"Dec.‘15",
+                    "end":"Jul.‘18"
+                },
+                "company":{
+                    "name":"Lightspeed Commerce",
+                    "url":"https://www.lightspeedhq.com",
+                    "location":"Montreal, QC"
+                },
+                "desc_list" : [
+                    "Worked with content editors and web designers to create many building blocks modules for the site using Advanced Custom Fields WordPress plugin.", 
+                    "Handled full-stack projects from start to finish, where I've written OOP PHP, SQL queries,  plain JS functionality, and SASS rules.",
+                    "Restructured the whole CSS codebase, creating predefined rules (vars, mixins and functions) using SASS, in order to adapt it to the existing brand identity, yet making it easy to update."                    
+                
+                ]
+            },
+             {
+                "title":"Research Assistant - Frontend Designer/Developer",
+                "date":{
+                    "start":"Jan.‘15",
+                    "end":"Jul.‘15"
+                },
+                "company":{
+                    "name":"OBX labs part of hexagram at Concordia university",
+                    "url":"http://www.obxlabs.net",
+                    "location":"Montreal, QC"
+                },
+                "desc_list" : [
+                    "Coordinated the development of an iOS app called “Falling Utopia“", 
+                    "Designed and developed a WordPress site for the Initiative for Indigenous Futures (IIF) - <a class=\"inline-link\" target=\"_blank\" href=\"http://indigenousfutures.net/\">indigenousfutures.net</a>", 
+                    "Handled the frontend design and development of different websites associated with the lab."
+                
+                ]
+            },
+             {
+                "title":"Teaching Assistant - Creative Computation 1 course",
+                "date":{
+                    "start":"Sep.‘14",
+                    "end":"Dec.‘14"
+                },
+                "company":{
+                    "name":"Concordia university",
+                    "url":"http://www.concordia.ca",
+                    "location":"Montreal, QC"
+                },
+                "desc_list" : [
+                    "Prepared weekly course materials presentation and explanation focused on learning Java.", 
+                    "Provided help for students in solving programming assignments during weekly office hours.", 
+                    "Corrected student assignments and exams."
+                
+                ]
+            }
+        ]
+    },
+    "skills":{
+        "main_title": "Skills",
+        "skillset": [
+        {
+            "name":"Leadership",
+            "list": [
+                {"skill": "Coaching & mentoring", "desc": "Use mentorship coupled with active listening and the use of the GROW approach in order to help team members be the best they can be in their roles."},
+                {"skill": "Interview & onboarding planning", "desc": "Prepare and conduct technical interviews, and create technical challenges for a more precise selection process. Create onboarding documentations and orientation sessions for newcomers."},
+                {"skill": "Project management", "desc": "Partner with product managers, designers and data analysts to deeply understand the needs of our users and build a product that serves those needs with respect to tight deadlines."},
+                {"skill": "Scrum events organization", "desc": "Organize sprint grooming and task review sessions, and often conduct sprint planning sessions with the team."}
+            ]
+        },
+        {
+            "name":"Technical",
+            "list": [
+                {"skill": "General practice", "desc": "Pull request review best practices, pair programing, agile and lean practice, continuous intergration, automation, Git, Regex, YAML."},
+                {"skill": "Frontend development", "desc": "HTML5, CSS3, SASS, BEM, Tailwind, Ajax, JavaScript, TypeScript, REACT, NextJS, Node, Webpack, Gulp, Twig, ACF, WordPress theming, Cloudflare workers."},
+                {"skill": "Backend development", "desc": "Familiarity with OOP concepts, PHP, SQL Database, Bash programming, JSON Web Token, WordPress Backend development."},
+                {"skill": "Error & performance reporting and monitoring", "desc": "NewRelic, Datadog, Google Analytics, SpeedCurve."},
+                {"skill": "Code Testing", "desc": "Familiarity with TDD, Jest unit testing library, Cypress e2e testing framework, PHP Unit testing library, various automated synthetics tests."},
+                {"skill": "A11y testing", "desc": "Axe, Chrome's lighthouse, and Web Accessibility Evaluation tool (WAVE)."},
+                {"skill": "A/B Testing", "desc": "Google Optimize."},
+                {"skill": "Devops", "desc": "CircleCI, Github, Docker, Google Cloud Platform, Kinsta."},
+                {"skill": "Project Management", "desc": "Jira, Monday, Zendesk."},
+                {"skill": "UI/UX Design", "desc": "Illustrator, Photoshop, InDesign, Figma, inVision, Excalidraw."}
+            ]
+        },
+        {
+            "name":"Language",
+            "list": [
+                {"skill": "English", "desc": "Fluent"},
+                {"skill": "French", "desc": "Intermediate"},
+                {"skill": "Arabic", "desc": "Native"}
+            ]
+        }
+        ]
+        
+    },
+
+    "internship":{
+        "main_title": "Volunteering",
+        "entries": [
+            {
+                "title":"Web Developer Volunteer",
+                "date":{
+                    "start":"Sep.‘21",
+                    "end":"Oct.’21"
+                },
+                "company":{
+                    "name":"Summit School Marketplace",
+                    "url":"https://market.summit-school.com",
+                    "location":"Montreal, Canada"
+                },
+                "desc_list" : [
+                    "In collaboration with a multidisciplinary team, I developed many pages of the marketplace website using Twig, Javascript and CSS inside a Lightspeed store environment. This project was a combined effort for helping people on the spectrum to better sell the products and services they offer."
+                ]
+            },
+             {
+                "title":"Infographic Designer Volunteer",
+                "date":{
+                    "start":"Sep.‘11",
+                    "end":"Oct.’11"
+                },
+                "company":{
+                    "name":"What’s your impact",
+                    "url":"https://whatsyourimpact.org",
+                    "location":"United States"
+                },
+                "desc_list" : [
+                    "Designed diagrams for environmental campaigns that highlight the danger of excessive greenhouse gases emissions on global warming. <a class=\"inline-link\" target=\"_blank\" href=\"https://whatsyourimpact.org/greenhouse-effect\">https://whatsyourimpact.org/greenhouse-effect", 
+                    "Here's my work showcased on my Behance page: <a class=\"inline-link\" target=\"_blank\" href=\"https://www.behance.net/gallery/18185981/Greenhouse-Gas-Effects-Infographics\">https://www.behance.net/gallery/18185981/Greenhouse-Gas-Effects-Infographics</a>"
+                ]
+            }
+        ]
+
+    },
+    "education":{
+        "main_title": "Education",
+        "entries": [
+             {
+                "title":"Bachelor in Fine Arts, Design Major & Computation Arts Minor",
+                "date":{
+                    "start":"Sep.‘12",
+                    "end":"Jun.‘16"
+                },
+                "company":{
+                    "name":"Concordia University",
+                    "url":"https://www.concordia.ca",
+                    "location":"Montreal, QC"
+                },
+                "desc_list" : []
+            },
+             {
+                "title":"Bachelor of Arts in Graphic Design Major",
+                "date":{
+                    "start":"Sep.‘00",
+                    "end":"Jun.‘05"
+                },
+                "company":{
+                    "name":"American University of Science & Technology",
+                    "url":"https://www.aust.edu.lb",
+                    "location":"Beirut, Lebanon"
+                },
+                "desc_list" : []
+            }
+        ]
+    },
+    "leisure":{
+        "food":"Anything plant-based",
+        "editor": "PHPStorm",
+        "software": "Notion, Alfred",
+        "social_media": "Reddit, Hacker News",
+        "sports": "Basketball",
+        "game": "Skyrim"
+    }
+}
