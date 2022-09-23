@@ -1,7 +1,7 @@
 import data from '../data.json'
 
 const Header = () => {
-const {name, description, tel, email, social} = data.personal_info;
+const {name, description, tel, email, location, social} = data.personal_info;
     return (
         <header className='grid md:grid-cols-[3fr_1fr] sm:grid-cols-1 gap-8 pb-5'>
             <section>
@@ -15,6 +15,7 @@ const {name, description, tel, email, social} = data.personal_info;
                 {social.map((s, index) => {
                     return <li key={index}><a target="_blank" href={s.url} rel="noreferrer">{s.name}</a></li>
                 })}
+                <li>{location}</li>
             </ul>
                 
             </nav>
