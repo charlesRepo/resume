@@ -13,9 +13,11 @@
             
     },
     "experience":{
+        "include": true, 
         "main_title": "Experience",
         "entries": [
              {
+                "include": true,
                 "title":"Team Lead Frontend Web Developer",
                 "date":{
                     "start":"Jan.‘21",
@@ -27,13 +29,14 @@
                     "location":"Montreal, QC"
                 },
                 "desc_list" : [
-                    "While I was still doing lots of technical development, I managed a team of frontend developers, with one developer located in a completely different timezone.", 
+                    "Managed a team of frontend developers, with one developer located in a completely different timezone.", 
                     "Held bi-weekly 1:1 meetings, through which provided coaching and mentorship to each team member.", 
-                    "Organized weekly grooming and task review sessions with my team and mangers, in an effort to plan the work for the upcoming sprints, eliminate any blockers and provide better understanding of the sprint tasks.",
+                    "Organized weekly grooming and task review sessions with my team and mangers, to plan the work and eliminate blockers for the upcoming sprints.",
                     "Planned and conducted technical interviews, and on-boarded new devs who joined the team."
                 ]
             },
              {
+                "include": true,
                 "title":"Senior Frontend Web Developer",
                 "date":{
                     "start":"Jul.‘18",
@@ -45,13 +48,14 @@
                     "location":"Montreal, QC"
                 },
                 "desc_list" : [
-                    "Migrated the Javascript codebase from gulp to Webpack, where a significant performance gain was acquired due to tree shaking and code splitting.",
-                    "Converted the Javascript codebase to use plain vanilla Javascript rather than jQuery, which was retired after the project was completed.",
-                    "Helped fellow colleagues in the Marketing department with technical difficulties, specially issues related to the WordPress setup.",
-                    "Engaged in regular code reviews, in pair programming sessions, and regularly take time to help fellow developers with technical challenges."
+                    "Migrated the Javascript codebase from gulp to Webpack, where a significant performance gain was acquired.",
+                    "Converted the Javascript codebase to use plain vanilla Javascript rather than jQuery.",
+                    "Helped fellow colleagues in the Marketing department with technical difficulties related to WordPress.",
+                    "Engaged in regular code reviews, pair programming, and helping fellow developers with technical challenges."
                 ]
             },
              {
+                "include": true,
                 "title":"Frontend Web Developer",
                 "date":{
                     "start":"Dec.‘15",
@@ -70,6 +74,7 @@
                 ]
             },
              {
+                "include": true,
                 "title":"Research Assistant - Frontend Designer/Developer",
                 "date":{
                     "start":"Jan.‘15",
@@ -88,6 +93,7 @@
                 ]
             },
              {
+                "include": true,
                 "title":"Teaching Assistant - Creative Computation 1 course",
                 "date":{
                     "start":"Sep.‘14",
@@ -111,35 +117,38 @@
         "main_title": "Skills",
         "skillset": [
         {
+            "include": true, 
             "name":"Leadership",
             "list": [
-                {"skill": "Coaching & mentoring", "desc": "Use mentorship coupled with active listening and the use of the GROW approach in order to help team members be the best they can be in their roles."},
-                {"skill": "Interview & onboarding planning", "desc": "Prepare and conduct technical interviews, and create technical challenges for a more precise selection process. Create onboarding documentations and orientation sessions for newcomers."},
-                {"skill": "Project management", "desc": "Partner with product managers, designers and data analysts to deeply understand the needs of our users and build a product that serves those needs with respect to tight deadlines."},
-                {"skill": "Scrum events organization", "desc": "Organize sprint grooming and task review sessions, and often conduct sprint planning sessions with the team."}
+                {"include": true, "skill": "Coaching & mentoring", "desc": "Use mentorship coupled with active listening and the use of the GROW approach in order to help team members be the best they can be in their roles."},
+                {"include": true, "skill": "Interview & onboarding planning", "desc": "Prepare and conduct technical interviews, and create technical challenges for a more precise selection process. Create onboarding documentations and orientation sessions for newcomers."},
+                {"include": true, "skill": "Project management", "desc": "Partner with product managers, designers and data analysts to deeply understand the needs of our users and build a product that serves those needs with respect to tight deadlines."},
+                {"include": true, "skill": "Scrum events organization", "desc": "Organize sprint grooming and task review sessions, and often conduct sprint planning sessions with the team."}
             ]
         },
         {
+            "include": true, 
             "name":"Technical",
             "list": [
-                {"skill": "General practice", "desc": "Pull request review best practices, pair programing, agile and lean practice, continuous intergration, automation, Git, Regex, YAML."},
-                {"skill": "Frontend development", "desc": "HTML5, CSS3, SASS, BEM, Tailwind, Ajax, JavaScript, TypeScript, REACT, NextJS, Node, Webpack, Gulp, Twig, ACF, WordPress theming, Cloudflare workers."},
-                {"skill": "Backend development", "desc": "Familiarity with OOP concepts, PHP, SQL Database, Bash programming, JSON Web Token, WordPress Backend development."},
-                {"skill": "Error & performance reporting and monitoring", "desc": "NewRelic, Datadog, Google Analytics, SpeedCurve."},
-                {"skill": "Code Testing", "desc": "Familiarity with TDD, Jest unit testing library, Cypress e2e testing framework, PHP Unit testing library, various automated synthetics tests."},
-                {"skill": "A11y testing", "desc": "Axe, Chrome's lighthouse, and Web Accessibility Evaluation tool (WAVE)."},
-                {"skill": "A/B Testing", "desc": "Google Optimize."},
-                {"skill": "Devops", "desc": "CircleCI, Github, Docker, Google Cloud Platform, Kinsta."},
-                {"skill": "Project Management", "desc": "Jira, Monday, Zendesk."},
-                {"skill": "UI/UX Design", "desc": "Illustrator, Photoshop, InDesign, Figma, inVision, Excalidraw."}
+                {"include": true, "skill": "General practice", "desc": "Pull request review best practices, pair programing, agile and lean practice, continuous intergration, automation, Git, Regex, YAML."},
+                {"include": true, "skill": "Frontend development", "desc": "HTML5, CSS3, SASS, BEM, Tailwind, Ajax, JavaScript, TypeScript, REACT, NextJS, Node, Webpack, Gulp, Twig, ACF, WordPress theming, Cloudflare workers."},
+                {"include": true, "skill": "Backend development", "desc": "Familiarity with OOP concepts, PHP, SQL Database, Bash programming, JSON Web Token, WordPress Backend development."},
+                {"include": true, "skill": "Error & performance reporting and monitoring", "desc": "NewRelic, Datadog, Google Analytics, SpeedCurve."},
+                {"include": true, "skill": "Code Testing", "desc": "Familiarity with TDD, Jest unit testing library, Cypress e2e testing framework, PHP Unit testing library, various automated synthetics tests."},
+                {"include": true, "skill": "A11y testing", "desc": "Axe, Chrome's lighthouse, and Web Accessibility Evaluation tool (WAVE)."},
+                {"include": true, "skill": "A/B Testing", "desc": "Google Optimize."},
+                {"include": true, "skill": "Devops", "desc": "CircleCI, Github, Docker, Google Cloud Platform, Kinsta."},
+                {"include": true, "skill": "Project Management", "desc": "Jira, Monday, Zendesk."},
+                {"include": true, "skill": "UI/UX Design", "desc": "Illustrator, Photoshop, InDesign, Figma, inVision, Excalidraw."}
             ]
         },
         {
+            "include": true, 
             "name":"Language",
             "list": [
-                {"skill": "English", "desc": "Fluent"},
-                {"skill": "French", "desc": "Intermediate"},
-                {"skill": "Arabic", "desc": "Native"}
+                {"include": true, "skill": "English", "desc": "Fluent"},
+                {"include": true, "skill": "French", "desc": "Intermediate"},
+                {"include": false, "skill": "Arabic", "desc": "Native"}
             ]
         }
         ]
@@ -147,9 +156,11 @@
     },
 
     "internship":{
+        "include": true, 
         "main_title": "Volunteering",
         "entries": [
             {
+                "include": true,
                 "title":"Web Developer Volunteer",
                 "date":{
                     "start":"Sep.‘21",
@@ -165,6 +176,7 @@
                 ]
             },
              {
+                "include": true,
                 "title":"Infographic Designer Volunteer",
                 "date":{
                     "start":"Sep.‘11",
@@ -184,9 +196,11 @@
 
     },
     "education":{
+        "include": true, 
         "main_title": "Education",
         "entries": [
              {
+                "include": true, 
                 "title":"Bachelor in Fine Arts, Design Major & Computation Arts Minor",
                 "date":{
                     "start":"Sep.‘12",
@@ -200,6 +214,7 @@
                 "desc_list" : []
             },
              {
+                "include": true, 
                 "title":"Bachelor of Arts in Graphic Design Major",
                 "date":{
                     "start":"Sep.‘00",
@@ -213,13 +228,5 @@
                 "desc_list" : []
             }
         ]
-    },
-    "leisure":{
-        "food":"Anything plant-based",
-        "editor": "PHPStorm",
-        "software": "Notion, Alfred",
-        "social_media": "Reddit, Hacker News",
-        "sports": "Basketball",
-        "game": "Skyrim"
     }
 }

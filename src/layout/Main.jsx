@@ -8,11 +8,16 @@ const Main = () => {
     return (
         <main>
             {[exp, int, edu].map((section, index) => {
-                return <section key={index}>
+                if(section.include){
+                    return <section key={index}>
                             <MainTitle text={section.main_title}/>
-                            {section.entries.map(({title, date, company, desc_list:description}, index) => <ExperienceBlock key={index} title={title} date={date} company={company} description={description}/>)}
+                            {section.entries.map(({include, title, date, company, desc_list:description}, index) => {
+                                if(include){
+                                    return <ExperienceBlock key={index} title={title} date={date} company={company} description={description}/>
+                                }
+                            })}
                         </section>
-                    
+                }    
             })}
         </main>
     )
