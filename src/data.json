@@ -116,6 +116,23 @@
     "skills":{
         "main_title": "Skills",
         "skillset": [
+            {
+            "include": true, 
+            "name":"Technical",
+            "list": [
+                {"include": true, "skill": "General practice", "desc": "Pull request review best practices, pair programing, agile and lean practice, continuous intergration, automation."},
+                {"include": true, "skill": "Frontend development", "desc": "HTML5, CSS3, SASS, BEM, Tailwind, Ajax, JavaScript, TypeScript, REACT, NextJS, Node, Webpack, Gulp, Twig, ACF, WordPress theming, Cloudflare workers."},
+                {"include": true, "skill": "Backend development", "desc": "Familiarity with OOP concepts, PHP, SQL Database, Bash programming, JSON Web Token, WordPress Backend development."},
+                {"include": true, "skill": "Reporting & monitoring", "desc": "NewRelic, Datadog, Google Analytics, SpeedCurve."},
+                {"include": true, "skill": "Code Testing", "desc": "Familiarity with TDD, Jest unit testing library, Cypress e2e testing framework, PHP Unit testing library, various automated synthetics tests."},
+                {"include": true, "skill": "A11y testing", "desc": "Axe, Chrome's lighthouse, and Web Accessibility Evaluation tool (WAVE)."},
+                {"include": true, "skill": "A/B Testing", "desc": "Google Optimize."},
+                {"include": true, "skill": "Tools", "desc": "Git, Github, Regex, YAML, JSON, Alfred, Notion."},
+                {"include": true, "skill": "Devops", "desc": "CircleCI, Github, Docker, Google Cloud Platform, Kinsta."},
+                {"include": true, "skill": "Project Management", "desc": "Jira, Monday, Zendesk."},
+                {"include": true, "skill": "UI/UX Design", "desc": "Illustrator, Photoshop, InDesign, Figma, inVision, Excalidraw."}
+            ]
+        },
         {
             "include": true, 
             "name":"Leadership",
@@ -126,22 +143,7 @@
                 {"include": true, "skill": "Scrum events organization", "desc": "Organize sprint grooming and task review sessions, and often conduct sprint planning sessions with the team."}
             ]
         },
-        {
-            "include": true, 
-            "name":"Technical",
-            "list": [
-                {"include": true, "skill": "General practice", "desc": "Pull request review best practices, pair programing, agile and lean practice, continuous intergration, automation, Git, Regex, YAML."},
-                {"include": true, "skill": "Frontend development", "desc": "HTML5, CSS3, SASS, BEM, Tailwind, Ajax, JavaScript, TypeScript, REACT, NextJS, Node, Webpack, Gulp, Twig, ACF, WordPress theming, Cloudflare workers."},
-                {"include": true, "skill": "Backend development", "desc": "Familiarity with OOP concepts, PHP, SQL Database, Bash programming, JSON Web Token, WordPress Backend development."},
-                {"include": true, "skill": "Error & performance reporting and monitoring", "desc": "NewRelic, Datadog, Google Analytics, SpeedCurve."},
-                {"include": true, "skill": "Code Testing", "desc": "Familiarity with TDD, Jest unit testing library, Cypress e2e testing framework, PHP Unit testing library, various automated synthetics tests."},
-                {"include": true, "skill": "A11y testing", "desc": "Axe, Chrome's lighthouse, and Web Accessibility Evaluation tool (WAVE)."},
-                {"include": true, "skill": "A/B Testing", "desc": "Google Optimize."},
-                {"include": true, "skill": "Devops", "desc": "CircleCI, Github, Docker, Google Cloud Platform, Kinsta."},
-                {"include": true, "skill": "Project Management", "desc": "Jira, Monday, Zendesk."},
-                {"include": true, "skill": "UI/UX Design", "desc": "Illustrator, Photoshop, InDesign, Figma, inVision, Excalidraw."}
-            ]
-        },
+        
         {
             "include": true, 
             "name":"Language",
