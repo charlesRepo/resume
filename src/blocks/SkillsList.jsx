@@ -7,9 +7,7 @@ const SkillsList = ({name, list}) => {
                 <BlockTitle title={name} />    
                 <ul className="list-disc list-outside">
                 {list.map(({include, skill, desc}, index) => {
-                    if (include) {
-                        return <SkillItem key={index} skill={skill} desc={desc}/>
-                    }
+                    return include && <SkillItem key={index} skill={skill} desc={desc}/>
                 })}
                 </ul>
             </section>
