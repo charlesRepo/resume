@@ -12,9 +12,7 @@ const Main = () => {
                     return <section key={index}>
                             <MainTitle text={section.main_title}/>
                             {section.entries.map(({include, title, date, company, desc_list:description}, index) => {
-                                if(include){
-                                    return <ExperienceBlock key={index} title={title} date={date} company={company} description={description}/>
-                                }
+                                return include && <ExperienceBlock key={index} title={title} date={date} company={company} description={description}/>
                             })}
                         </section>
                 }    
