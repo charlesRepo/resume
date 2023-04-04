@@ -29,11 +29,12 @@
                     "location":"Montreal, QC"
                 },
                 "desc_list" : [
-                    "Managed a team of frontend developers, with one developer located in a completely different timezone.", 
-                    "Held bi-weekly 1:1 meetings, through which provided coaching and mentorship to each team member.", 
-                    "Organized weekly grooming and task review sessions with my team and mangers, to plan the work and eliminate blockers for the upcoming sprints.",
-                    "Planned and conducted technical interviews, and on-boarded new devs who joined the team."
-                ]
+									"Manage and engage in developing and shipping high-priority and bigger scale projects",
+									"Managed a team of frontend developers, with one developer located in a completely different timezone.",
+									"Held bi-weekly 1:1 meetings, through which provided coaching and mentorship to each team member.",
+									"Organized weekly grooming and task review sessions with my team and mangers, to plan the work and eliminate blockers for the upcoming sprints.",
+									"Planned and conducted technical interviews, and on-boarded new devs who joined the team."
+								]
             },
              {
                 "include": true,
