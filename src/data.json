@@ -124,6 +124,8 @@
                 {"include": true, "skill": "General practice", "desc": "Pull request review best practices, pair programing, agile and lean practice, continuous intergration, automation."},
                 {"include": true, "skill": "Frontend development", "desc": "HTML5, CSS3, SASS, BEM, Tailwind, Ajax, JavaScript, TypeScript, REACT, NextJS, Node.js, Webpack, Gulp, Twig, ACF, WordPress theming, Cloudflare workers."},
                 {"include": true, "skill": "Backend development", "desc": "Familiarity with OOP concepts, PHP, SQL Database, Bash programming, JSON Web Token, WordPress Backend development."},
+                {"include": true, "skill": "Data Science Tools", "desc": "Python, MatPlotLib, Scikit, Tensorflow, SQL."},
+                {"include": true, "skill": "Data Science Practices", "desc": "EDA, regression and classification analysis, interpretation, NLP, clustering, ML, model training and optimization, NN, timeseries analysis."},
                 {"include": true, "skill": "Reporting & monitoring", "desc": "NewRelic, Datadog, Google Analytics, SpeedCurve."},
                 {"include": true, "skill": "Code Testing", "desc": "Familiarity with TDD, Jest unit testing library, Cypress e2e testing framework, PHP Unit testing library, various automated synthetics tests."},
                 {"include": true, "skill": "A11y testing", "desc": "Axe, Chrome's lighthouse, and Web Accessibility Evaluation tool (WAVE)."},
