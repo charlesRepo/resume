@@ -27,7 +27,7 @@ jobs:
 
     - name: Update last updated date
       run: |
-        sed -i "s/\"last_updated\": \".*\"/\"last_updated\": \"$(date)\"/" src/data.json
+        sed -i "s/\"last_updated\": \".*\"/\"last_updated\": \"$(TZ='America/New_York' date)\"/" src/data.json
     
     - name: Build project
       run: npm run build
