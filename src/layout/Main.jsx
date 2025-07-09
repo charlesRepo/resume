@@ -7,11 +7,11 @@ const Main = () => {
     
     return (
         <main>
-            {[exp, int, edu].map((section, index) => {
-                return section.include && <section key={index}>
+            {[exp, int, edu].map((section) => {
+                return section.include && <section key={section.main_title}>
                     <MainTitle text={section.main_title}/>
-                    {section.entries.map(({include, title, date, company, desc_list:description}, index) => {
-                        return include && <ExperienceBlock key={index} title={title} date={date} company={company} description={description}/>
+                    {section.entries.map(({include, title, date, company, desc_list:description}) => {
+                        return include && <ExperienceBlock key={title} title={title} date={date} company={company} description={description}/>
                             })}
                 </section>
                     

@@ -10,8 +10,8 @@ const ExperienceBlock = ({title, date, company, description}) => {
             <BlockTitle title={title} date={date} />
             <CompanyTitle company={company}/>
             <ul className="list-disc list-outside">
-            {description.map((desc, index) => {
-                return <li key={index} className="font-sans text-base leading-5"> {<div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(desc) }} />}</li>           
+            {description.map((desc) => {
+                return <li key={desc} className="font-sans text-base leading-5"> {<div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(desc) }} />}</li>           
             })}
                
             </ul>
